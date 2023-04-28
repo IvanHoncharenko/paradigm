@@ -1,0 +1,13 @@
+@import "../../../styles/colors";
+
+.container {
+  display: flex;
+
+  .secondBlockContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    border-right: 1px solid $light-gray;
+  }
+}

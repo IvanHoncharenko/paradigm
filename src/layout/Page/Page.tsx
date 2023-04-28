@@ -5,7 +5,6 @@ function Page(): JSX.Element {
   return (
     <div className="page">
       <Header />
-      <h1>Hello world</h1>
       <Outlet />
     </div>
   );
