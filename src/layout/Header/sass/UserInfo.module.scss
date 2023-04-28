@@ -1,0 +1,27 @@
+@import "../../../styles/colors";
+
+.userInfoContainer {
+  display: flex;
+
+  .photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 13px;
+  }
+
+  .textContainer {
+
+    h2 {
+      color: $light-gray;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    p {
+      color: $light-gray;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}

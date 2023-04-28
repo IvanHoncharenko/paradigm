@@ -1,0 +1,38 @@
+@import "../../../styles/colors";
+
+.label {
+  display: flex;
+  align-items: center;
+  background-color: $darkish-gray;
+  padding: 0 15px;
+  border-radius: 50px;
+  height: 100%;
+
+  .iconLeft {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .iconRight {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+
+  .input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+
+    &:active {
+      outline: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

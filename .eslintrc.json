@@ -38,7 +38,11 @@
       "exceptions": ["input"]
     }],
     "react/jsx-uses-react": "off", // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
-    "react/react-in-jsx-scope": "off" // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
+    "react/react-in-jsx-scope": "off", // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
+    "react/function-component-definition": [
+      2,
+      { "namedComponents": ["function-declaration", "function-expression", "arrow-function"] }
+    ]
   },
   "overrides": [
     { //https://redux-toolkit.js.org/usage/immer-reducers#linting-state-mutations

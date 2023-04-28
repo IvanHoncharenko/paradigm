@@ -1,3 +1,6 @@
 export default {
-  home: {},
+  header: {
+    contacts: 'Contacts',
+    searchPlaceholder: 'Search, lead, contact and more',
+  },
 };

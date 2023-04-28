@@ -1,0 +1,21 @@
+@import "../../../styles/colors";
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  .verticalLine {
+    background-color: $dark-gray;
+    height: 90%;
+    width: 1px;
+    margin: 0 22px;
+  }
+
+  .headerLeftText {
+    color: $white;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.5;
+  }
+}

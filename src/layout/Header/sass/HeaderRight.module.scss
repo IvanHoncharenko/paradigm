@@ -1,0 +1,37 @@
+@import "../../../styles/colors";
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+
+  .customInput {
+    width: 390px;
+    margin-right: 25px;
+  }
+
+  .plusButton {
+    border-radius: 50px;
+    background-color: $orange;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+  }
+
+  .verticalLine {
+    background-color: $dark-gray;
+    width: 1px;
+    height: 100%;
+    margin: 0 27px;
+  }
+
+  .iconButtonContainer {
+    display: flex;
+    align-items: center;
+
+    .middleIconButton {
+      margin: 0 20px;
+    }
+  }
+}
